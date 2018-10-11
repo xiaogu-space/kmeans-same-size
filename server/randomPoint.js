@@ -3,10 +3,10 @@ const KmeansLib = require('../util/sameSizeKmeans');
 
 const kmeans = new KmeansLib();
 const k = 5; // Groups Number
-const size = 200; // Group size
+const size = 20; // Group size
 
 const vectors = [];
-for (let i = 0; i < 1000; i += 1) {
+for (let i = 0; i < 100; i += 1) {
   vectors.push({
     id: i,
     x: Math.random() * 10,
